@@ -21,6 +21,7 @@ Cybersecurity trainee building hands-on skills across the full security stack �
 | Scripting | Python, PowerShell, Bash |
 | Network Analysis | Wireshark, Nmap |
 | Password Analysis | John the Ripper, CyberChef |
+| Blue Team | Suricata, Wazuh |
 | Frameworks | OWASP Top 10, OWASP Testing Guide, MITRE ATT&CK |
 | Platforms | Docker, Linux, Windows |
 
@@ -33,19 +34,27 @@ Cybersecurity trainee building hands-on skills across the full security stack �
 | Section | Status | Description |
 |---------|--------|-------------|
 | [06-Pentesting](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/06-Pentesting) | Active | Web application & infrastructure testing |
+| [04-Blue-Team](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/04-Blue-Team) | Active | Incident response, threat detection, IDS rule engineering |
 | [00-Network](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/00-Network) | In progress | Network fundamentals, packet analysis, protocol labs |
 | [01-Python](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/01-Python) | In progress | Security scripting and automation |
 | [02-Windows](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/02-Windows) | In progress | Windows admin, PowerShell, Active Directory |
 | [03-Linux](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/03-Linux) | In progress | Linux hardening, Bash scripting, sysadmin |
 | [05-Security-And-Regulations](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/05-Security-And-Regulations) | In progress | GDPR, ISO 27001, OWASP, risk frameworks |
 
-### Pentest Highlights
+### Highlights
 
 **OWASP Juice Shop v19.2.1** — [Full report](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/06-Pentesting/01-OWASP-Juice-Shop)
 
 - **13 findings**: 2 Critical · 5 High · 4 Medium · 2 Low
 - Key findings: SQL injection (auth bypass), privilege escalation via mass assignment, DOM XSS, IDOR, hardcoded credentials in JS bundles
 - Tools: Burp Suite, curl, PowerShell, CyberChef, John the Ripper, DevTools
+
+**NexaCorp INC-2026-001** — [Incident report](https://github.com/penasandre/andrepenas-cybersecurity/tree/main/04-Blue-Team/01-NexaCorp-Incident-Response)
+
+- CVE-2011-2523 (vsftpd 2.3.4 backdoor) — PCAP forensics, full attack chain reconstruction
+- 3 Suricata detection rules written and validated — 0 false positives
+- SIEM gap analysis (Wazuh generated zero alerts during the incident)
+- Tools: Wireshark, Suricata, Wazuh
 
 ---
 
