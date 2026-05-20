@@ -1,4 +1,4 @@
-# André Penas
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:16213e&height=160&section=header&text=André%20Penas&fontSize=42&fontColor=ffffff&fontAlignY=50&desc=Cybersecurity%20Trainee%20·%20Blue%20Team%20·%20BeCode%20Corp%202026&descSize=16&descAlignY=72&descColor=a0aec0" width="100%"/>
 
 [![Open to Work](https://img.shields.io/badge/Open_to_Work-2CA5E0?style=flat&logoColor=white)](https://github.com/penasandre)
 [![BeCode Corp 2026](https://img.shields.io/badge/BeCode_Corp-2026-4B0082?style=flat&logoColor=white)]()
